@@ -1,0 +1,79 @@
+/* UserInputForm.css */
+.user-input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button {
+  padding: 12px 24px;
+  background-color: #f1f3f5;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #e9ecef;
+  transform: translateY(-2px);
+}
+
+.button:focus {
+  outline: 2px solid #4dabf7;
+  outline-offset: 2px;
+}
+
+.button.selected {
+  background-color: #4dabf7;
+  color: #fff;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #4dabf7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:hover {
+  background-color: #228be6;
+}
+
+.submit-button:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
